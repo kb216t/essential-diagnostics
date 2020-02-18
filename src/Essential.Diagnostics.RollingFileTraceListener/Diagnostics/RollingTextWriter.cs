@@ -199,6 +199,10 @@ namespace Essential.Diagnostics
                     }
                     return true;
                 });
+            if (result.StartsWith(".\\") || result.StartsWith("\\"))
+            {
+                result = Path.Combine(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), result);
+            }
             return result;
         }
 

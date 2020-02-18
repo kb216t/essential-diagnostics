@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Essential.Diagnostics.RollingFileTraceListener")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Gryphon Technology Pty Ltd")]
+[assembly: AssemblyCompany("Gryphon Technology Pty Ltd, CTI LLC")]
 [assembly: AssemblyProduct("Essential.Diagnostics")]
-[assembly: AssemblyCopyright("Copyright © Gryphon Technology Pty Ltd 2017")]
+[assembly: AssemblyCopyright("Copyright © Gryphon Technology Pty Ltd 2017, CTI LLC 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
