@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>Essential.Diagnostics.RollingFileTraceListener</id>
-    <version>2.0.0.0</version>
-    <authors>sgryphon</authors>
+    <version>2.0.7.0</version>
+    <authors>sgryphon, v.ladin@cti.ru</authors>
     <owners>sgryphon</owners>
     <licenseUrl>http://essentialdiagnostics.codeplex.com/license</licenseUrl>
     <projectUrl>http://essentialdiagnostics.codeplex.com/</projectUrl>
@@ -19,9 +19,10 @@
       See the project site on CodePlex for examples and documentation.
     </description>
     <releaseNotes>
+      Version 2.0.7: Support of the relative path in the App.config file added for RollingFileWriter. This fixes problem with log writes into Windows\system32 folder when executable runs as Windows service.
       Version 2.0: Major re-organisation of project into separate packages for each trace listener. This allows projects to add just the listeners they need.
     </releaseNotes>
-    <copyright>Copyright © Gryphon Technology Pty Ltd 2017</copyright>
+    <copyright>Copyright © Gryphon Technology Pty Ltd 2017, CTI LLC 2020</copyright>
     <tags>Logging Tracing Diagnostics Log Trace TraceListener Rolling File</tags>
     <dependencies>
       <dependency id="Essential.Diagnostics.Core" version="2.0.0.0" />
